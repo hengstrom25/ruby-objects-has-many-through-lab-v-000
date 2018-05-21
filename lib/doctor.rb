@@ -20,4 +20,6 @@ class Doctor
     self.new_appointment.collect { |songs| songs.appointment}
   end  
   
+  def patients
+  
 end
