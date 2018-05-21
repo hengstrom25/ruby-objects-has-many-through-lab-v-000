@@ -17,7 +17,7 @@ class Doctor
   end
   
   def appointments
-    self.appointments.collect { |songs| songs.appointment}
+    self.appointment.collect { |songs| songs.appointment}
   end  
   
 end
