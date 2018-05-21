@@ -17,7 +17,7 @@ class Doctor
   end
   
   def appointments
-    self.new_appointment.collect { |songs| songs.appointment}
+    
   end  
   
   def patients
