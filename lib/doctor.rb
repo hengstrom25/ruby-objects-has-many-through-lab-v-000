@@ -17,7 +17,7 @@ class Doctor
   end
   
   def appointments
-    Appointment.
+    Appointment.all.select {
   end  
   
   def patients
