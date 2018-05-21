@@ -16,7 +16,7 @@ class Doctor
     Appointment.new(date, patient, self)
   end
   
-  def appointments
+  def appointment
     self.appointment.collect { |songs| songs.appointment}
   end  
   
